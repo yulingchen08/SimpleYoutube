@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		922442C029BB71B000C04780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442BF29BB71B000C04780 /* AppDelegate.swift */; };
 		922442C229BB71B000C04780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442C129BB71B000C04780 /* SceneDelegate.swift */; };
-		922442C429BB71B000C04780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442C329BB71B000C04780 /* ViewController.swift */; };
 		922442C729BB71B000C04780 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922442C529BB71B000C04780 /* Main.storyboard */; };
 		922442C929BB71B200C04780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922442C829BB71B200C04780 /* Assets.xcassets */; };
 		922442CC29BB71B200C04780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922442CA29BB71B200C04780 /* LaunchScreen.storyboard */; };
 		922442D729BB71B200C04780 /* SimpleYoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442D629BB71B200C04780 /* SimpleYoutubeTests.swift */; };
 		922442E129BB71B200C04780 /* SimpleYoutubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442E029BB71B200C04780 /* SimpleYoutubeUITests.swift */; };
 		922442E329BB71B200C04780 /* SimpleYoutubeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442E229BB71B200C04780 /* SimpleYoutubeUITestsLaunchTests.swift */; };
+		922442F329BC613100C04780 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442F229BC613100C04780 /* Coordinator.swift */; };
+		922442F529BC806D00C04780 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442F429BC806D00C04780 /* AppCoordinator.swift */; };
+		922442F729BC811A00C04780 /* MainViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442F629BC811A00C04780 /* MainViewCoordinator.swift */; };
+		922442FA29BC815B00C04780 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922442F929BC815B00C04780 /* MainViewController.swift */; };
+		9224430029BCA40100C04780 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 922442FF29BCA40100C04780 /* SnapKit */; };
+		9224430229BCA4BA00C04780 /* VideoPlayerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430129BCA4BA00C04780 /* VideoPlayerCoordinator.swift */; };
+		9224430429BCA4F500C04780 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */; };
+		9224430629BD014B00C04780 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430529BD014B00C04780 /* BaseNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		922442BC29BB71B000C04780 /* SimpleYoutube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleYoutube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		922442BF29BB71B000C04780 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		922442C129BB71B000C04780 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		922442C329BB71B000C04780 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		922442C629BB71B000C04780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		922442C829BB71B200C04780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922442CB29BB71B200C04780 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,13 @@
 		922442DC29BB71B200C04780 /* SimpleYoutubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleYoutubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		922442E029BB71B200C04780 /* SimpleYoutubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleYoutubeUITests.swift; sourceTree = "<group>"; };
 		922442E229BB71B200C04780 /* SimpleYoutubeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleYoutubeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		922442F229BC613100C04780 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		922442F429BC806D00C04780 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		922442F629BC811A00C04780 /* MainViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewCoordinator.swift; sourceTree = "<group>"; };
+		922442F929BC815B00C04780 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		9224430129BCA4BA00C04780 /* VideoPlayerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerCoordinator.swift; sourceTree = "<group>"; };
+		9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		9224430529BD014B00C04780 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9224430029BCA40100C04780 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,9 +113,10 @@
 		922442BE29BB71B000C04780 /* SimpleYoutube */ = {
 			isa = PBXGroup;
 			children = (
+				922442F829BC813700C04780 /* Views */,
+				922442EF29BC603800C04780 /* Coordinators */,
 				922442BF29BB71B000C04780 /* AppDelegate.swift */,
 				922442C129BB71B000C04780 /* SceneDelegate.swift */,
-				922442C329BB71B000C04780 /* ViewController.swift */,
 				922442C529BB71B000C04780 /* Main.storyboard */,
 				922442C829BB71B200C04780 /* Assets.xcassets */,
 				922442CA29BB71B200C04780 /* LaunchScreen.storyboard */,
@@ -127,6 +142,27 @@
 			path = SimpleYoutubeUITests;
 			sourceTree = "<group>";
 		};
+		922442EF29BC603800C04780 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				922442F229BC613100C04780 /* Coordinator.swift */,
+				922442F429BC806D00C04780 /* AppCoordinator.swift */,
+				922442F629BC811A00C04780 /* MainViewCoordinator.swift */,
+				9224430129BCA4BA00C04780 /* VideoPlayerCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		922442F829BC813700C04780 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				922442F929BC815B00C04780 /* MainViewController.swift */,
+				9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */,
+				9224430529BD014B00C04780 /* BaseNavigationController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +179,9 @@
 			dependencies = (
 			);
 			name = SimpleYoutube;
+			packageProductDependencies = (
+				922442FF29BCA40100C04780 /* SnapKit */,
+			);
 			productName = SimpleYoutube;
 			productReference = 922442BC29BB71B000C04780 /* SimpleYoutube.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +254,9 @@
 				Base,
 			);
 			mainGroup = 922442B329BB71B000C04780;
+			packageReferences = (
+				922442FE29BCA40100C04780 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 922442BD29BB71B000C04780 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				922442C429BB71B000C04780 /* ViewController.swift in Sources */,
+				922442F729BC811A00C04780 /* MainViewCoordinator.swift in Sources */,
+				922442F529BC806D00C04780 /* AppCoordinator.swift in Sources */,
 				922442C029BB71B000C04780 /* AppDelegate.swift in Sources */,
+				9224430229BCA4BA00C04780 /* VideoPlayerCoordinator.swift in Sources */,
+				922442F329BC613100C04780 /* Coordinator.swift in Sources */,
 				922442C229BB71B000C04780 /* SceneDelegate.swift in Sources */,
+				9224430429BCA4F500C04780 /* VideoPlayerViewController.swift in Sources */,
+				9224430629BD014B00C04780 /* BaseNavigationController.swift in Sources */,
+				922442FA29BC815B00C04780 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +650,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		922442FE29BCA40100C04780 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		922442FF29BCA40100C04780 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 922442FE29BCA40100C04780 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 922442B429BB71B000C04780 /* Project object */;
 }
