@@ -19,6 +19,7 @@ class AppCoordinator: Coordinator {
     
     func start() {
         guard let window = window, let navigation = self.navigation else { return }
+        navigation.setNavigationBarHidden(true, animated: false)
         window.rootViewController = navigation
         mainViewCoordinator = MainViewCoordinator(navigation: navigation)
         mainViewCoordinator?.start()

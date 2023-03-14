@@ -30,17 +30,17 @@ class MainViewCoordinator: Coordinator {
 }
 
 extension MainViewCoordinator: MainViewControllerDelegate {
-    func didClickPlayVideoButton() {
-        showVideoPlayerView()
+    func didClickPlayVideoButton(object: PlaylistDomainObject.Item) {
+        showVideoPlayerView(object: object)
     }
     
 }
 
 extension MainViewCoordinator {
-    private func showVideoPlayerView() {
+    private func showVideoPlayerView(object: PlaylistDomainObject.Item) {
         guard let navigation = navigation else { return }
         videoPlayerCoordinator = VideoPlayerCoordinator(navigation: navigation)
-        videoPlayerCoordinator?.start()
+        videoPlayerCoordinator?.start(object: object)
     }
 }
 
