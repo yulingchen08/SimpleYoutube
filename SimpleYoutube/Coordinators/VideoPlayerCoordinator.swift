@@ -14,17 +14,12 @@ class VideoPlayerCoordinator:  Coordinator {
         self.navigation = navigation
     }
     
-    func start() {
+    func start(object: PlaylistDomainObject.Item) {
         guard let navigation = navigation else { return }
-        let rootViewController = VideoPlayerViewController()
+        let viewModel = VideoPlayerViewModel(dataSource: object)
+        let rootViewController = VideoPlayerViewController(viewModel: viewModel)
         rootViewController.delegate = self
-        navigation.pushViewController(rootViewController, animated: false)
+        rootViewController.modalPresentationStyle = .fullScreen
+        navigation.present(rootViewController, animated: false)
     }
-}
-
-extension VideoPlayerCoordinator {
- 
-}
-
-extension VideoPlayerCoordinator: VideoPlayerViewControllerDelegate {
 }
