@@ -23,6 +23,19 @@
 		9224430229BCA4BA00C04780 /* VideoPlayerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430129BCA4BA00C04780 /* VideoPlayerCoordinator.swift */; };
 		9224430429BCA4F500C04780 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */; };
 		9224430629BD014B00C04780 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430529BD014B00C04780 /* BaseNavigationController.swift */; };
+		9224430929BD0D8000C04780 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430829BD0D8000C04780 /* NetworkService.swift */; };
+		9224430C29BD8EB400C04780 /* PlaylistDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430B29BD8EB400C04780 /* PlaylistDTO.swift */; };
+		9224431029BE2E1800C04780 /* MainViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224430F29BE2E1800C04780 /* MainViewTableViewCell.swift */; };
+		9224431329BEC6EF00C04780 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224431229BEC6EF00C04780 /* MainViewModel.swift */; };
+		9224431629BEC94900C04780 /* PlaylistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224431529BEC94900C04780 /* PlaylistRepository.swift */; };
+		9224431A29BED5E400C04780 /* PlaylistDomainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224431929BED5E400C04780 /* PlaylistDomainObject.swift */; };
+		9224432C29BFA50B00C04780 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 9224432B29BFA50B00C04780 /* SDWebImage */; };
+		9224432E29BFAE4F00C04780 /* ChannelDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224432D29BFAE4F00C04780 /* ChannelDTO.swift */; };
+		9224433029C01B8D00C04780 /* MainViewTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224432F29C01B8D00C04780 /* MainViewTableViewCellViewModel.swift */; };
+		9224433329C0516300C04780 /* YouTubeiOSPlayerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = 9224433229C0516300C04780 /* YouTubeiOSPlayerHelper */; };
+		9224433529C0B44500C04780 /* VideoTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224433429C0B44400C04780 /* VideoTitleTableViewCell.swift */; };
+		9224433729C0BDCF00C04780 /* VideoCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224433629C0BDCF00C04780 /* VideoCommentTableViewCell.swift */; };
+		9224433B29C0CE7700C04780 /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9224433A29C0CE7700C04780 /* VideoPlayerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +75,17 @@
 		9224430129BCA4BA00C04780 /* VideoPlayerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerCoordinator.swift; sourceTree = "<group>"; };
 		9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 		9224430529BD014B00C04780 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		9224430829BD0D8000C04780 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9224430B29BD8EB400C04780 /* PlaylistDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDTO.swift; sourceTree = "<group>"; };
+		9224430F29BE2E1800C04780 /* MainViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTableViewCell.swift; sourceTree = "<group>"; };
+		9224431229BEC6EF00C04780 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		9224431529BEC94900C04780 /* PlaylistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistRepository.swift; sourceTree = "<group>"; };
+		9224431929BED5E400C04780 /* PlaylistDomainObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDomainObject.swift; sourceTree = "<group>"; };
+		9224432D29BFAE4F00C04780 /* ChannelDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDTO.swift; sourceTree = "<group>"; };
+		9224432F29C01B8D00C04780 /* MainViewTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		9224433429C0B44400C04780 /* VideoTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTitleTableViewCell.swift; sourceTree = "<group>"; };
+		9224433629C0BDCF00C04780 /* VideoCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCommentTableViewCell.swift; sourceTree = "<group>"; };
+		9224433A29C0CE7700C04780 /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9224432C29BFA50B00C04780 /* SDWebImage in Frameworks */,
 				9224430029BCA40100C04780 /* SnapKit in Frameworks */,
+				9224433329C0516300C04780 /* YouTubeiOSPlayerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +139,10 @@
 		922442BE29BB71B000C04780 /* SimpleYoutube */ = {
 			isa = PBXGroup;
 			children = (
+				9224431429BEC92B00C04780 /* Repositories */,
+				9224430729BD0D6C00C04780 /* Network */,
 				922442F829BC813700C04780 /* Views */,
+				9224431129BEC6DC00C04780 /* ViewModels */,
 				922442EF29BC603800C04780 /* Coordinators */,
 				922442BF29BB71B000C04780 /* AppDelegate.swift */,
 				922442C129BB71B000C04780 /* SceneDelegate.swift */,
@@ -156,11 +185,91 @@
 		922442F829BC813700C04780 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				922442F929BC815B00C04780 /* MainViewController.swift */,
-				9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */,
 				9224430529BD014B00C04780 /* BaseNavigationController.swift */,
+				9224430E29BE2DEE00C04780 /* VideoPlayer */,
+				9224430D29BE2DD700C04780 /* Playlist */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9224430729BD0D6C00C04780 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9224430A29BD8E9F00C04780 /* DTO */,
+				9224430829BD0D8000C04780 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9224430A29BD8E9F00C04780 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				9224430B29BD8EB400C04780 /* PlaylistDTO.swift */,
+				9224432D29BFAE4F00C04780 /* ChannelDTO.swift */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		9224430D29BE2DD700C04780 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				922442F929BC815B00C04780 /* MainViewController.swift */,
+				9224430F29BE2E1800C04780 /* MainViewTableViewCell.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		9224430E29BE2DEE00C04780 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9224430329BCA4F500C04780 /* VideoPlayerViewController.swift */,
+				9224433429C0B44400C04780 /* VideoTitleTableViewCell.swift */,
+				9224433629C0BDCF00C04780 /* VideoCommentTableViewCell.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		9224431129BEC6DC00C04780 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9224433929C0CE6200C04780 /* VidoPlayer */,
+				9224433829C0CE4C00C04780 /* Playlist */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9224431429BEC92B00C04780 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				9224431C29BED60500C04780 /* Playlist */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		9224431C29BED60500C04780 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				9224431529BEC94900C04780 /* PlaylistRepository.swift */,
+				9224431929BED5E400C04780 /* PlaylistDomainObject.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		9224433829C0CE4C00C04780 /* Playlist */ = {
+			isa = PBXGroup;
+			children = (
+				9224431229BEC6EF00C04780 /* MainViewModel.swift */,
+				9224432F29C01B8D00C04780 /* MainViewTableViewCellViewModel.swift */,
+			);
+			path = Playlist;
+			sourceTree = "<group>";
+		};
+		9224433929C0CE6200C04780 /* VidoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9224433A29C0CE7700C04780 /* VideoPlayerViewModel.swift */,
+			);
+			path = VidoPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +290,8 @@
 			name = SimpleYoutube;
 			packageProductDependencies = (
 				922442FF29BCA40100C04780 /* SnapKit */,
+				9224432B29BFA50B00C04780 /* SDWebImage */,
+				9224433229C0516300C04780 /* YouTubeiOSPlayerHelper */,
 			);
 			productName = SimpleYoutube;
 			productReference = 922442BC29BB71B000C04780 /* SimpleYoutube.app */;
@@ -256,6 +367,8 @@
 			mainGroup = 922442B329BB71B000C04780;
 			packageReferences = (
 				922442FE29BCA40100C04780 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				9224432A29BFA50B00C04780 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				9224433129C0516300C04780 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */,
 			);
 			productRefGroup = 922442BD29BB71B000C04780 /* Products */;
 			projectDirPath = "";
@@ -300,15 +413,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9224433B29C0CE7700C04780 /* VideoPlayerViewModel.swift in Sources */,
+				9224430929BD0D8000C04780 /* NetworkService.swift in Sources */,
 				922442F729BC811A00C04780 /* MainViewCoordinator.swift in Sources */,
+				9224430C29BD8EB400C04780 /* PlaylistDTO.swift in Sources */,
+				9224433729C0BDCF00C04780 /* VideoCommentTableViewCell.swift in Sources */,
 				922442F529BC806D00C04780 /* AppCoordinator.swift in Sources */,
 				922442C029BB71B000C04780 /* AppDelegate.swift in Sources */,
+				9224433029C01B8D00C04780 /* MainViewTableViewCellViewModel.swift in Sources */,
+				9224433529C0B44500C04780 /* VideoTitleTableViewCell.swift in Sources */,
+				9224431329BEC6EF00C04780 /* MainViewModel.swift in Sources */,
+				9224431029BE2E1800C04780 /* MainViewTableViewCell.swift in Sources */,
 				9224430229BCA4BA00C04780 /* VideoPlayerCoordinator.swift in Sources */,
 				922442F329BC613100C04780 /* Coordinator.swift in Sources */,
+				9224432E29BFAE4F00C04780 /* ChannelDTO.swift in Sources */,
+				9224431629BEC94900C04780 /* PlaylistRepository.swift in Sources */,
 				922442C229BB71B000C04780 /* SceneDelegate.swift in Sources */,
 				9224430429BCA4F500C04780 /* VideoPlayerViewController.swift in Sources */,
 				9224430629BD014B00C04780 /* BaseNavigationController.swift in Sources */,
 				922442FA29BC815B00C04780 /* MainViewController.swift in Sources */,
+				9224431A29BED5E400C04780 /* PlaylistDomainObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,6 +784,22 @@
 				kind = branch;
 			};
 		};
+		9224432A29BFA50B00C04780 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		9224433129C0516300C04780 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/youtube/youtube-ios-player-helper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -667,6 +807,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 922442FE29BCA40100C04780 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		9224432B29BFA50B00C04780 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9224432A29BFA50B00C04780 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		9224433229C0516300C04780 /* YouTubeiOSPlayerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9224433129C0516300C04780 /* XCRemoteSwiftPackageReference "youtube-ios-player-helper" */;
+			productName = YouTubeiOSPlayerHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
